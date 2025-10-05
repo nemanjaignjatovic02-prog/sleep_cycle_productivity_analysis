@@ -1,40 +1,50 @@
-# Statistička analiza uticaja spavanja, kafe i ekrana na produktivnost i raspoloženje
+# Statistical analysis of the effects of sleep, coffee and screens on productivity and mood
 
-## Opis projekta
+## Description of the project
 
-Ovaj projekat ispituje kako faktori poput spavanja, unosa kofeina, vremena provedenog ispred ekrana i fizičke aktivnosti utiču na produktivnost, raspoloženje i nivo stresa kod pojedinaca.
-Analiza je izvedena korišćenjem podataka iz fajla sleep_cycle_productivity.csv.
+This project examines how factors such as sleep, caffeine intake, screen time and physical activity affect productivity, mood and stress levels in individuals.
+The analysis was performed using data from the sleep_cycle_productivity.csv file.
 
-## Cilj
-	•	Utvrditi povezanost između navika spavanja i radne produktivnosti
-	•	Ispitati uticaj kofeina i ekrana na raspoloženje i stres
-	•	Primeniti parametarske i neparametarske statističke testove
-	•	Prikazati rezultate kroz grafičke vizualizacije (box plot, histogram, violin plot, kontingentne tabele)
+## Goals 
+• Determine the relationship between sleep habits and work productivity 
+
+• Examine the effects of caffeine and screens on mood and stress 
+
+• Apply parametric and non-parametric statistical tests 
+
+• Show results through graphic visualizations (box plot, histogram, violin plot, contingent tables)
 
 ## Dataset
 
-Dataset sadrži sledeće grupe podataka:
-	•	Demografija: Age, Gender
-	•	Spavanje: Sleep Start Time, Sleep End Time, Total Sleep Hours, Sleep Quality
-	•	Životni stil: Exercise (mins/day), Caffeine Intake (mg), Screen Time Before Bed (mins), Work Hours (hrs/day)
-	•	Ishodi: Productivity Score, Mood Score, Stress Level
+The dataset contains the following data groups: 
+• Demographics: Age, Gender 
 
-Ukupno: oko 8000 zapisa i 14 kolona.
-Svaka opservacija predstavlja jednog ispitanika u jednom danu.
+• Sleep: Sleep Start Time, Sleep End Time, Total Sleep Hours, Sleep Quality 
 
-## Korišćene biblioteke
-	•	pandas, numpy – obrada podataka
-	•	matplotlib – vizualizacija
-	•	scipy.stats – statistički testovi (t-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-kvadrat)
+• Lifestyle: Exercise (mins/day), Caffeine Intake (mg), Screen Time Before Bed (mins), Work Hours (hrs/day) 
 
-## Analitičke sekcije
-	1.	Eksploratorna analiza (EDA) – opisne statistike i distribucije
-	2.	Parametarski testovi – t-test i ANOVA
-	3.	Neparametarski testovi – Mann-Whitney, Kruskal-Wallis
-	4.	Chi-kvadrat test – povezanost kategorijskih varijabli
-	5.	Vizualizacija – box plotovi, violin plotovi, kontingentne tabele
+• Outcomes: Productivity Score, Mood Score, Stress Level
 
-## Rezultati (primeri)
-	•	Više sati sna i bolji kvalitet spavanja povezani su sa višim skorom produktivnosti
-	•	Prekomerno vreme pred ekranom povezano je sa višim nivoom stresa
-	•	Umeren unos kofeina povezan je sa boljim raspoloženjem
+Total: about 8000 records and 14 columns.
+Each observation represents one respondent on one day.
+
+## Libraries used 
+• pandas, numpy – data processing 
+
+• matplotlib – visualization 
+
+• scipy.stats – statistical tests (t-test, ANOVA, Mann-Whitney, Kruskal-Wallis, Chi-square)
+
+## Analytical sections 
+1. Exploratory Analysis (EDA) – descriptive statistics and distributions 
+2. Parametric tests - t-test and ANOVA 
+3. Non-parametric tests - Mann-Whitney, Kruskal-Wallis 
+4. Chi-square test - association of categorical variables 
+5. Visualization – box plots, violin plots, contingent tables
+
+## Results (examples) 
+• More hours of sleep and better sleep quality are associated with higher productivity scores 
+
+• Excessive screen time is associated with higher levels of stress 
+
+• Moderate caffeine intake is associated with better mood
